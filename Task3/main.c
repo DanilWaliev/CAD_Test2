@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <float.h> //для получения DBL_MAX
-
 #include "inputs.h"
 #include "info.h"
 #include "random.h"
@@ -92,7 +91,7 @@ int main(void)
   ShowInfo(2, 3, 5);
 
   enum MENU {MANUAL = 1, RANDOM = 2, EXIT = 3};
-  enum MENU userChoice = 0;
+  enum MENU userChoice;
   double matrix[N_SIZE][M_SIZE];
   int Scg = 0; // колличество измененных строк
 

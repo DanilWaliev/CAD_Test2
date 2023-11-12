@@ -1,13 +1,12 @@
-#ifndef stdio
+п»ї#ifndef stdio
 #include <stdio.h>
 #endif
-
 #ifndef locale
 #include <locale.h>
 #endif
 
-//  ввод числа int с клавиатуры
+//  РІРІРѕРґ С‡РёСЃР»Р° int СЃ РєР»Р°РІРёР°С‚СѓСЂС‹
 int GetInt(void);
 
-// ввод числа double с клавиатуры
+// РІРІРѕРґ С‡РёСЃР»Р° double СЃ РєР»Р°РІРёР°С‚СѓСЂС‹
 double GetDouble(void);

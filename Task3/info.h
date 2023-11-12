@@ -1,7 +1,6 @@
 #ifndef stdio
 #include <stdio.h>
 #endif
-
 #ifndef locale
 #include <locale.h>
 #endif
